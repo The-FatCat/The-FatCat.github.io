@@ -5,12 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Archive</title>
+    <title>在chorme安装hackbar - Hexo</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
-    
+    <meta name="description" content="
+首先下载Hackbar插件：https://github.com/Mr-xn/hackbar2.1.3
+下载压缩包（其中的zip文件）。
+
+
+二者均可，不过建议下载高版本。
+
+
+解压下载好的压缩包,"> 
     <meta name="author" content="John Doe"> 
     <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -33,45 +41,98 @@
 <body class="loading">
     <span id="config-title" style="display:none">Hexo</span>
     <div id="loader"></div>
-    <div id="single" class="page">
-    <div id="top">
-        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
-    </div>
-    <div class="section">
-        <div class="article">
-            <div class="main">
-                <div class="content">
-                    <div class="timeline">
-                      <h2 class="timeline-title">归档: 3篇</h2><hr>
-                      
-                      
-                        
-                          <h3 class="timeline-subtitle">2021</h3>
-                        
-                        <div class="timeline-item">
-                          <time>2021-01-11</time>
-                          <a target="_self" href="/2021/01/11/%E5%9C%A8chorme%E5%AE%89%E8%A3%85hackbar/">在chorme安装hackbar</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2021-01-05</time>
-                          <a target="_self" href="/2021/01/05/%E6%90%AD%E5%BB%BAhexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">搭建hexo个人博客</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2021-01-05</time>
-                          <a target="_self" href="/2021/01/05/hello-world/">Hello World</a>
-                        </div>
-                      
-                    </div>
-                </div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://example.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">在chorme安装hackbar</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
             </div>
+            <div id="qr"></div>
         </div>
     </div>
+    <div class="scrollbar"></div>
 </div>
 
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">在chorme安装hackbar</h1>
+        <div class="stuff">
+            <span>一月 11, 2021</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%8F%92%E4%BB%B6/" rel="tag">插件</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <ul>
+<li>首先下载Hackbar插件：<a target="_blank" rel="noopener" href="https://github.com/Mr-xn/hackbar2.1.3">https://github.com/Mr-xn/hackbar2.1.3</a></li>
+<li>下载压缩包（其中的zip文件）。<img src="https://ftp.bmp.ovh/imgs/2021/01/1c0f3cd89f53ec15.png"></li>
+</ul>
+<blockquote>
+<p>二者均可，不过建议下载高版本。</p>
+</blockquote>
+<ul>
+<li><p>解压下载好的压缩包，进入解压后的文件夹，进入<code>theme\js</code>：<img src="https://ftp.bmp.ovh/imgs/2021/01/42a905e9591a67eb.png"></p>
+</li>
+<li><p>以记事本形式打开<code>hackbar-panel.js</code>文件。</p>
+</li>
+<li><p>将三处<code>disable_hackbar()</code>替换为<code>init()</code>，<strong>保存</strong>并关闭文件：<img src="https://ftp.bmp.ovh/imgs/2021/01/2125a807f368ea33.png"></p>
+</li>
+<li><p>将此插件文件夹（本文为Hackbar v2）压缩为zip文件。</p>
+</li>
+<li><p>将此zip文件拖拽进chorme的扩展程序管理页面即可成功添加。</p>
+<blockquote>
+<p>不知道怎么进chorme扩展程序管理页面的朋友可以在chorme地址栏输入：chrome://extensions/</p>
+</blockquote>
+</li>
+<li><p>在chorme中打开开发者工具即可使用：<img src="https://ftp.bmp.ovh/imgs/2021/01/a3abd76cbe02ad6a.png"></p>
+</li>
+</ul>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='false'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
 </body>
 
 
